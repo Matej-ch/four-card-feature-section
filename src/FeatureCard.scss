@@ -1,0 +1,39 @@
+article {
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 1.5rem;
+  border-radius: 8px;
+
+  &:first-child {
+    border-top: 5px solid var(--clr-first-card);
+  }
+
+  &:nth-child(2) {
+    border-top: 5px solid var(--clr-second-card);
+  }
+
+  &:nth-child(3) {
+    border-top: 5px solid var(--clr-third-card);
+  }
+
+  &:last-child {
+    border-top: 5px solid var(--clr-fourth-card);
+  }
+
+  h3 {
+    font-weight: var(--fw-bold);
+    text-transform: capitalize;
+    color: var(--clr-neutral-dark-blue);
+    font-size: 1.5rem;
+    padding-bottom: 0.75rem;
+  }
+
+  p {
+    padding-bottom: 0.75rem;
+    font-size: var(-fs-base);
+  }
+
+  img {
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,43 @@
+.app {
+  width: min(80%, 60rem);
+  margin: 0 auto;
+}
+
+h1 {
+  color: var(--clr-neutral-dark-blue);
+  font-weight: var(--fw-thin);
+  font-size: var(--fs-large);
+  text-align: center;
+}
+
+h2 {
+  color: var(--clr-neutral-dark-blue);
+  font-weight: var(--fw-bold);
+  text-align: center;
+  font-size: var(--fs-large);
+}
+
+p {
+  color: var(--clr-neutral-gray-blue);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.feature-card-container {
+  display: grid;
+  gap: 2rem;
+}

@@ -1,5 +1,4 @@
 :root {
-  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -13,4 +12,63 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --ff-base: 'Poppins', sans-serif;
+
+  --fs-base: 15px;
+  --fs-large: 28px;
+
+  --fw-thin: 200;
+  --fw-regular: 400;
+  --fw-bold: 600;
+
+  --clr-first-card: hsl(180, 62%, 55%);
+  --clr-second-card: hsl(0, 78%, 62%);
+  --clr-third-card: hsl(34, 97%, 64%);
+  --clr-fourth-card: hsl(212, 86%, 64%);
+
+  --clr-neutral-dark-blue: hsl(234, 12%, 34%);
+  --clr-neutral-gray-blue: hsl(229, 6%, 66%);
+  --clr-neutral-light-gray: hsl(0, 0%, 98%);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-base);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--clr-neutral-light-gray);
+  width: 100%;
+  display: grid;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+  width: 100%;
 }
