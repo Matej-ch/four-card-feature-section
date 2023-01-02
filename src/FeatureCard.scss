@@ -40,9 +40,9 @@ article {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   article {
-    
+
     &:first-child {
       grid-row: 1 / 3;
       align-self: center;
